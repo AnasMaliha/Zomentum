@@ -3,7 +3,7 @@
 /* Fonts Include */
 
 @font-face {
-  src: url("../fonts/Cairo-Regular.ttf");
+  src: url("../fonts/CircularStd-Book.ttf");
   font-family: "main";
 }
 
@@ -162,17 +162,18 @@ picture {
   background: rgba(0, 255, 133, 0.08);
 }
 .section2 .farme1 {
-  width: 90px;
+  width: 70px;
   right: 5%;
 }
 .section2 .farme2 {
-  width: 90px;
+  width: 70px;
   left: 8%;
   top: 60%;
 }
 .section2 p{
      font-size: 14px;
 }
+
 .section3 h3{
 font-size: 25px;
 }
@@ -184,6 +185,9 @@ font-size: 25px;
 }
 .footer-tag ul li{
      color: white;
+}
+.footer-tag .row{
+  padding-left: 10%;
 }
 /* Media for responsive */
 @media (min-width: 1440px) {
@@ -226,6 +230,12 @@ font-size: 25px;
      .section1 .img2 {
           display: none;
           }
+      nav{
+        text-align: center;
+      }
+      .footer-tag ul li{
+        font-size: 12px;
+   }    
 }
 
 @media (max-width: 576px) {
